@@ -1,0 +1,19 @@
+development:
+  sessions:
+    default:
+      database: GLaDOS_development
+      hosts:
+        - localhost:27017
+      options:
+        consistency: :strong
+  options:
+
+test:
+  sessions:
+    default:
+      database: GLaDOS_test
+      hosts:
+        - localhost:27017
+      options:
+        consistency: :strong
+  options:
