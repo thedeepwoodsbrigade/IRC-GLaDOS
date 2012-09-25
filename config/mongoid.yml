@@ -18,15 +18,12 @@ test:
         consistency: :strong
   options:
 
-# mongodb://heroku_app6881640:l9dfeluqrt92s0l8mm1odl0m2o@ds031347-b.mongolab.com:31347/heroku_app6881640
 production:
   sessions:
     default:
-      database: heroku_app6881640
-      username: heroku_app6881640
-      password: l9dfeluqrt92s0l8mm1odl0m2o
+      database: ircglados
       hosts:
-        - ds031347-b.mongolab.com:31347
+        - localhost:27017
       options:
         consistency: :strong
   options:
